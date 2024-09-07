@@ -3,9 +3,9 @@ import ServiceCard from '@/components/ServiceCard';
 
 const Services = () => {
     const data = [
-        {title:'Websites',src:'/websites.jpeg'},
+        {title:'Websites',src:'/websites.jpg'},
         {title:'Mobile apps',src:'/mobile.jpeg'},
-        {title:'Desktop apps',src:'/desktop.jpg'},
+        {title:'Desktop apps',src:'/desktop.jpeg'},
     ]
     return (
         <section className='bg-[#1a1b1e] w-full pb-5' id='services'>

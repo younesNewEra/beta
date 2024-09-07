@@ -3,8 +3,8 @@ import ServiceCard from '@/components/ServiceCard';
 
 const Services = () => {
     const data = [
-        {title:'Websites',src:'/websites.jpg'},
-        {title:'Mobile apps',src:'/mobile.jpg'},
+        {title:'Websites',src:'/websites.jpeg'},
+        {title:'Mobile apps',src:'/mobile.jpeg'},
         {title:'Desktop apps',src:'/desktop.jpg'},
     ]
     return (

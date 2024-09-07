@@ -3,9 +3,9 @@ import ServiceCard from '@/components/ServiceCard';
 
 const Services = () => {
     const data = [
-        {title:'Websites',src:'/m4.jpg'},
-        {title:'Mobile apps',src:'/m4.jpg'},
-        {title:'Desktop apps',src:'/m4.jpg'}
+        {title:'Websites',src:'/websites.jpg'},
+        {title:'Mobile apps',src:'/mobile.jpg'},
+        {title:'Desktop apps',src:'/desktop.jpg'},
     ]
     return (
         <section className='bg-[#1a1b1e] w-full pb-5' id='services'>
@@ -15,7 +15,7 @@ const Services = () => {
                 </p>
                 <p className='ft text-white text-[2em] md:max-w-[10em] md:flex flex-col
                 md:text-[3em]'>
-                    <span className=' md:translate-y-[25px]'>How we</span> 
+                    <span className=' md:translate-y-[25px]'>How we</span>
                     <span>take your business</span> 
                     <span className=' md:translate-y-[-25px]'>to the next level</span>
                 </p>

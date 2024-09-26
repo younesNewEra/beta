@@ -34,12 +34,9 @@ const Nav = () => {
         md:grid-rows-[5em] grid-rows-[${row}] z-20
         ` 
         : `md:w-[80%] grid grid-cols-[1fr_3fr] fixed top-4 transition-all duration-300 ease-in-out
-        bg-black bg-opacity-20 backdrop-blur-lg rounded-[2em] px-10 md:px-20 md:grid-rows-[5em] 
+        bg-black bg-opacity-20 backdrop-blur-lg rounded-[2em] px-5 md:px-20 md:grid-rows-[5em] 
         grid-rows-[${row}] md:rounded-full w-[90%] z-20`}>
-            <div className="text-white text-[2em] self-center 
-            ">
-                SI
-            </div>
+            <img className="self-center h-5 md:h-9" src="/logo3.png" alt="logo"/>
             <Image src='/menu.png' alt="menu" width={50} height={50}
             className="md:hidden self-center justify-self-end"
             onClick={menu}

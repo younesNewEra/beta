@@ -11,17 +11,17 @@ const Home = () => {
                     <span className='text-[1.5em]'>.</span> Hi, Welcome 
                 </p>
                 <p className='text-white md:text-[3em] text-[1.5em] ft 
-                bg-black font-medium px-5 rounded-br-[16px]
+                bg-black font-medium px-5 rounded-br-[16px] py-2 md:py-0
                 '>
                     A Web Design and
                 </p>
                 <p className='text-white md:text-[3em] text-[1.5em] ft 
-                bg-black font-medium px-5 rounded-br-[16px]
+                bg-black font-medium px-5 rounded-br-[16px] py-2 md:py-0
                 '>
                     Software Agency
                 </p>
                 <p className='text-white md:text-[3em] text-[1.5em] ft 
-                bg-black font-medium px-5 rounded-br-[16px]
+                bg-black font-medium px-5 rounded-br-[16px] py-2 md:py-0
                 '>
                     based in Blida
                 </p>
@@ -50,7 +50,7 @@ const Home = () => {
             </div>
             <video src='/vid.mp4' className='absolute w-[80%] mt-44 hidden md:block' autoPlay muted loop
             ></video>
-            <video src='/mini-screen.mp4' className='absolute w-[85%] mt-44 block md:hidden' autoPlay muted loop
+            <video src='/mini2.mp4' className='absolute w-[85%] mt-44 block md:hidden' autoPlay muted loop
             ></video>
         </section>
     )
